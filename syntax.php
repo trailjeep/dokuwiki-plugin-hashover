@@ -54,6 +54,7 @@ class syntax_plugin_hashover extends DokuWiki_Syntax_Plugin {
         //$R->doc .= $this->_hashover($data);
         $R->doc .= '<div id="hashover"></div>';
         $R->doc .= '<script type="text/javascript" src="'.DOKU_PLUGIN.'/hashover/hashover-next/comments.php"></script>';
+        $R->doc .= '<script type="text/javascript" src="../../../lib/hashover-next/comments.php"></script>';
         $R->doc .= '<noscript>You must have JavaScript enabled to use the comments.</noscript>';
         return true;
     }
