@@ -1,7 +1,7 @@
 @media (min-width: 980px) /* desktop */ {
     .iframe-container {
         overflow: hidden;
-        padding-top: 56.25%;
+        padding-top: 75vh;
         position: relative;
     }
 
@@ -18,8 +18,9 @@
 @media (max-width: 500px) /* mobile */ {
     .iframe-container {
         position: relative;
-        padding-bottom: 99%;
-        padding-top: 1%;
+        /*padding-bottom: 175%;*/
+        padding-bottom: 75vh;
+        padding-top: 1vh;
         height: 0;
         overflow: auto; 
         -webkit-overflow-scrolling:touch; //<<--- THIS IS THE KEY 
