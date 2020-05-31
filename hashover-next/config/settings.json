@@ -55,5 +55,5 @@
 	"local-metadata": false,
 	"stores-ip-address": true,
 	"minifies-javascript": true,
-	"minify-level": 4
+	"minify-level": 2
 }

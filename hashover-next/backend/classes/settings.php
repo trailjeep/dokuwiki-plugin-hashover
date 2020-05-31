@@ -46,7 +46,7 @@ class Settings extends SensitiveSettings
 		$root_directory = dirname (dirname (__DIR__));
 
 		// Get HTTP root directory
-		$http_directory = '/lib/' . basename ($root_directory);
+		$http_directory = '/lib/plugins/hashover/' . basename ($root_directory);
 
 		// Replace backslashes with forward slashes on Windows
 		if (DIRECTORY_SEPARATOR === '\\') {
@@ -57,7 +57,7 @@ class Settings extends SensitiveSettings
 		$this->rootDirectory = $root_directory;
 
 		// Comments directory path
-		$this->commentsRoot = $root_directory . '/../../data/comments';
+        $this->commentsRoot = $root_directory . '/../../../../data/comments';
 
 		// Root directory for HTTP
 		$this->httpRoot = $http_directory;
