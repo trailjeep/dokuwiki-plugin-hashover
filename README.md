@@ -5,6 +5,7 @@ This plugin add Hashover comments to DokuWiki.
 It is not meant for public use - Do not use unless you understand any security implications!
 
 Notes:
+* Webserver must allow iframe for admin: `"X-Frame-Options" => "SAMEORIGIN"`
 * must manually add & modify [secrets.php](https://github.com/jacobwb/hashover-next/blob/master/backend/classes/secrets.php) with own credentials:
 ```bash
 cd /path/to/dokuwiki/lib/plugins/hashover/hashover-next/backend/classes
