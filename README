@@ -1,6 +1,22 @@
 Hashover Plugin for DokuWiki
 
-All documentation for this plugin can be found at
+This plugin add Hashover comments to DokuWiki.
+
+It is not meant for public use - Do not use unless you understand any security implications!
+
+Notes:
+* must manually add & modify [secrets.php](https://github.com/jacobwb/hashover-next/blob/master/backend/classes/secrets.php)
+* Use `~~HASHOVER~~` anywhere comments are wanted.
+* Initial add of hashover:
+  ```
+git subtree add --squash --prefix=hashover-next https://github.com/jacobwb/hashover-next.git master
+  ```
+* Update hashover:
+  ```
+git subtree pull --squash --prefix=hashover-next https://github.com/jacobwb/hashover-next.git master
+  ```
+
+
 
 If you install this plugin manually, make sure it is installed in
 lib/plugins/hashover/ - if the folder is called different it
