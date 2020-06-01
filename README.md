@@ -33,6 +33,28 @@ if ( ($ACT == 'show') && ($ns === 'public' || $ns === 'pets') && ($pg !== 'start
 }
 </phpwikify>
 ```
+* documents my own settings in sidebar:
+```php
+<WRAP sidebox #sidecmntcnt box round>
+<php>
+$id = '/'.str_replace(':', '/', cleanID(getID()));
+echo '<ul class="nav nav-pills nav-stacked">';
+echo '<li><a class="hashover-count-link" href="'.$id.'#comments" title="Comments"></a></li>';
+echo '</ul>';
+echo '<script type="text/javascript" src="/lib/plugins/hashover/hashover-next/api/count-link.php"></script>';
+</php>
+</WRAP>
+```
+* documents my own settings in root start:
+```html
+Latest Comments:
+<WRAP center 95%>
+<php>
+echo '<div id="hashover-latest"></div>';
+echo '<script type="text/javascript" src="/lib/plugins/hashover/hashover-next/api/latest.php"></script>';
+</php>
+</WRAP>
+```
 
 
 If you install this plugin manually, make sure it is installed in
