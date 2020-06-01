@@ -5,7 +5,11 @@ This plugin add Hashover comments to DokuWiki.
 It is not meant for public use - Do not use unless you understand any security implications!
 
 Notes:
-* must manually add & modify [secrets.php](https://github.com/jacobwb/hashover-next/blob/master/backend/classes/secrets.php)
+* must manually add & modify [secrets.php](https://github.com/jacobwb/hashover-next/blob/master/backend/classes/secrets.php) with own credentials:
+```bash
+cd /path/to/dokuwiki/lib/plugins/hashover/hashover-next/backend/classes
+wget https://github.com/jacobwb/hashover-next/raw/master/backend/classes/secrets.php
+```
 * Use `~~HASHOVER~~` anywhere comments are wanted.
 * Initial add of hashover:
 ```git
