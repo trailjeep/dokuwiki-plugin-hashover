@@ -35,3 +35,19 @@
         border: 0;
     }
 }
+
+.hashover form input, .hashover form textarea, .hashover .hashover-inputs input, .hashover .hashover-submit {
+    background-color: @ini_background_alt !important;
+}
+
+.hashover .hashover-form-footer {
+    background-color: @ini_background_alt !important;
+}
+
+.hashover .hashover-formatting-table {
+    background-color: @ini_background_neu !important;
+}
+
+.hashover .hashover-avatar-image *, .hashover .hashover-avatar *, .hashover .hashover-comment > .hashover-balloon, .hashover .hashover-reply .hashover-header, .hashover . hashover-comment .hashover-inputs, .hashover .hashover-requires-login-message {
+    background-color: @ini_background_alt !important;
+}
