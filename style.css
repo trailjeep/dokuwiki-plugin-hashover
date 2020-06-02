@@ -40,11 +40,11 @@
     background-color: @ini_background_alt !important;
 }
 
-hashover .hashover-formatting-table {
+.hashover .hashover-formatting-table {
     background-color: @ini_background_neu !important;
 }
 
-hashover form input,
+.hashover form input,
 .hashover form textarea,
 .hashover .hashover-inputs input,
 .hashover .hashover-submit {
